@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrendPulse Dashboard</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="analytics.css" />
+    <script type="text/javascript" src="js/bar.js"></script>
+  </head>
+  <body>
+    <aside id="sidebar">
+      <div class="title">
+        <img src="logo.png" alt="" height="30px" width="30px" />
+        <h1>TrendPulse</h1>
+      </div>
+      <ul>
+        <br>
+        <li>
+          <a href="index.html"
+            ><i class="material-icons">home</i
+            ><span class="links">Home</span></a
+          >
+        </li>
+        <li>
+          <a href="dashboard.html"
+          ><i class="material-icons">dashboard</i
+            ><span class="links">Dashboard</span></a
+           >
+        </li>
+        <li>
+          <a href="trending.html"
+            ><i class="material-icons">trending_up</i
+            ><span class="links">Trending Now</span></a
+          >
+        </li>
+        <li>
+          <a href="chat.html"
+            ><i class="material-icons">storefront</i
+            ><span class="links">AI Business Generator</span></a
+          >
+        </li>
+        <li>
+          <a href="marketing.html"
+            ><i class="material-icons">campaign</i
+            ><span class="links">Marketing Tips</span></a
+          >
+        </li>
+        <li>
+          <a href="analytics.html"
+            ><i class="material-icons">bar_chart</i
+            ><span class="links">Trend Analytics</span></a
+          >
+        </li>
+        <li>
+          <a href="notification.html"
+            ><i class="material-icons">notifications</i
+            ><span class="links">Notifications</span></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><i class="material-icons">groups</i
+            ><span class="links">Community</span></a
+          >
+        </li>
+      </ul>
+    </aside>
+
+    <main>
+      <h1>Trend Analytics</h1>
+      <div class="container1">
+        <div class="container">
+          <canvas id="barchart" width="200" height="200"></canvas>
+        </div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+    <script src="bar.js"></script>
+  </body>
+</html>
